@@ -1,15 +1,22 @@
 <template>
-  <main>
+  <main class="main">
     <Navigation/>
-    <div>
+    <div class="main--content">
       <NuxtPage />
     </div>
   </main>
 </template>
 
 <style scoped>
-nav {
-  display: flex;
-  gap: 1rem;
+main {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto 1fr;
+  width:100%;
+  min-height: 100lvh;
+}
+.main--content {
+    padding: 1rem;
+    background: #eeeeee;
 }
 </style>

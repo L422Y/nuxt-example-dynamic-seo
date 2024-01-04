@@ -1,4 +1,4 @@
 <template>
-  <main>This is the contact page</main>
+  <div>This is the contact page</div>
 </template>
 <script setup lang="ts"></script>

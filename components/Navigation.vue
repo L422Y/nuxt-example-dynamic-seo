@@ -13,3 +13,11 @@
 <script lang="ts" setup>
 const SEOList = useSEOList();
 </script>
+<style>
+nav {
+  display: grid;
+  gap: 1rem;
+  align-content: flex-start;
+  padding: 1rem;
+}
+</style>
